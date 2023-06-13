@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Hamming Calculator</title>
+</head>
+<body>
+<form method="post">
+    <div>
+        <label for="string">Enter String:</label>
+        <input id="string" th:name="string" type="text"/>
+    </div>
+    <div>
+        <button type="submit">Calculate</button>
+    </div>
+</form>
+<div>
+    Hamming Result: <span th:text="${string}"></span>
+</div>
+<div>
+    Previous String: <span th:text="${previous}"></span>
+</div>
+</body>
+</html>
