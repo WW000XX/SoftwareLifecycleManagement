@@ -1,0 +1,1 @@
+calculates the Hamming weight of a number. 
